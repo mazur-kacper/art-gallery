@@ -8,10 +8,12 @@ body {
   padding-left: 100px;
   width: 100%;
   height: auto;
-  position: fixed;
-  background-color: rgb(57, 54, 54);
+  position: absolute;
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
+  opacity: 0.8;
+  position: fixed;
 }
 
 .tabs {
@@ -30,4 +32,9 @@ body {
 
 .tabs a:hover {
   text-decoration: underline;
+}
+
+.main-background {
+  height: 100vh;
+  width: auto;
 }
