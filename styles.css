@@ -2,7 +2,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  height: 9000px;
+  height: auto;
 }
 
 #navbar {
@@ -46,7 +46,7 @@ body {
 .art-pieces {
   margin-top: 100px;
   display: flex;
-  gap: 200px;
+  gap: 150px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -66,17 +66,32 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  gap: 50px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  border-radius: 25px;
 }
 
 .art-pieces img {
   width: auto;
   height: 200px;
+  border-radius: 25px;
 }
 
 .logo {
   margin-top: 5px;
+}
+
+#footer {
+  margin-top: 200px;
+  background-color: black;
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  font-size: 20px;
+  padding-left: 200px;
 }
