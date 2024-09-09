@@ -61,3 +61,22 @@ body {
   width: 450px;
   height: 350px;
 }
+
+.art-pieces div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.art-pieces img {
+  width: auto;
+  height: 200px;
+}
+
+.logo {
+  margin-top: 5px;
+}
