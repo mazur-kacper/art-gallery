@@ -58,10 +58,10 @@ body {
   background-color: black;
 }
 
-.art-pieces div:hover {
+/* .art-pieces div:hover {
   width: 450px;
   height: 350px;
-}
+} */
 
 .art-pieces div {
   display: flex;
